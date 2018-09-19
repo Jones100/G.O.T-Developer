@@ -12,7 +12,7 @@ class Home extends Component {
 		return (
 			<div className="main-container">
 					<div className="main-header-container">
-							<div className="main-header"> What type of developer are you?? </div>
+							<div className="main-header"> What type of develop are you?? </div>
 
 					</div>
 
