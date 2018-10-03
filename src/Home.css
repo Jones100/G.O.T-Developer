@@ -8,12 +8,17 @@
 
 .main-header-container {
 	display: flex;
-	flex-direction: column;
-	width: 100%;
-	align-items: center;
+	flex-direction: row;
+	width: 95%;
+	margin: 30px;
+	justify-content: flex-end;
+	font-family: cursive;
+	/* font-style: italic; */
 }
 
 .main-header {
-	font-family: cursive;
-	font-size: 56px;
+	font-size: 62px;
+	color: #d7faee;
+	word-spacing: 5px;
+
 }
