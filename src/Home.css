@@ -33,7 +33,7 @@
 .character-wheel {
 	  display: flex;
 		flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 		width: 50%;
     margin-right: 70px;
 }
@@ -41,10 +41,6 @@
 .img-container {
 	height: 260px;
 	width: 180px;
-	margin: 8% 6%;
-	/*margin: 85px 100px;*/
-	/*overflow: hidden;*/
-	border-radius: 30px;
 }
 
 .lf-img {
@@ -52,6 +48,7 @@
 	flex-direction: column;
 	width: 56%;
 	height: 40%;
+	margin-left: 115px;
 	object-fit: cover;
 	background-image: url(img/lf.jpg);
 	border-radius: 50%;
