@@ -39,21 +39,50 @@
 }
 
 .img-container {
-	height: 260px;
+	height: 160px;
 	width: 180px;
 }
 
-.lf-img {
+.littlefinger-img {
 	display: flex;
 	flex-direction: column;
 	width: 56%;
-	height: 40%;
+	height: 60%;
 	margin-left: 115px;
 	object-fit: cover;
-	background-image: url(img/lf.jpg);
+	background-image: url(img/littlefinger.jpg);
 	border-radius: 50%;
 }
 
+.middle-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.brienne-img {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 69%;
+	margin-left: 80px;
+	background-image: url(img/brienne.jpg);
+	background-size: cover;
+	background-position: 53%;
+	border-radius: 50%;
+}
+
+.tyrion-img {
+	display: flex;
+	flex-direction: column;
+	width: 77%;
+	height: 68%;
+	margin-left: 80px;
+	background-image: url(img/tyrion.jpg);
+	background-size: cover;
+	border-radius: 50%;
+}
 
 
 
