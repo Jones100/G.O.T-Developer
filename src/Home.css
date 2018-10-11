@@ -26,7 +26,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	margin: 30px;
+	margin: 0 30px 30px;
 	align-items: flex-end;
 }
 
@@ -34,8 +34,8 @@
 	  display: flex;
 		flex-direction: column;
     align-items: center;
-		width: 50%;
-    margin-right: 70px;
+		width: 55%;
+    margin-right: 50px;
 }
 
 .img-container {
@@ -48,7 +48,7 @@
 	flex-direction: column;
 	width: 56%;
 	height: 60%;
-	margin-left: 115px;
+	margin: 0 0 0px 120px;
 	object-fit: cover;
 	background-image: url(img/littlefinger.jpg);
 	border-radius: 50%;
@@ -59,29 +59,6 @@
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
-}
-
-.brienne-img {
-	display: flex;
-	flex-direction: column;
-	width: 60%;
-	height: 69%;
-	margin-left: 80px;
-	background-image: url(img/brienne.jpg);
-	background-size: cover;
-	background-position: 53%;
-	border-radius: 50%;
-}
-
-.tyrion-img {
-	display: flex;
-	flex-direction: column;
-	width: 73%;
-	height: 66%;
-	margin-left: 80px;
-	background-image: url(img/tyrion.jpg);
-	background-size: 107% 198%;
-	border-radius: 50%;
 }
 
 .tywin-img {
@@ -95,12 +72,35 @@
 	border-radius: 50%;
 }
 
+.brienne-img {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 69%;
+	margin: 20px 0 0 110px;
+	background-image: url(img/brienne.jpg);
+	background-size: cover;
+	background-position: 53%;
+	border-radius: 50%;
+}
+
+.tyrion-img {
+	display: flex;
+	flex-direction: column;
+	width: 73%;
+	height: 66%;
+	margin-left: 130px;
+	background-image: url(img/tyrion.jpg);
+	background-size: 107% 198%;
+	border-radius: 50%;
+}
+
 .varys-img {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
 	height: 69%;
-	margin-left: 80px;
+	margin: 50px 0 0 107px;
 	background-image: url(img/varys.jpg);
 	background-size: cover;
 	background-position: 53%;
