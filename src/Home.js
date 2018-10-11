@@ -33,6 +33,14 @@ class Home extends Component {
 								<div className="tyrion-img"> </div>
 							</div>	
 							
+							<div className="img-container">
+								<div className="tywin-img"> </div>
+							</div>	
+							
+							<div className="img-container">
+								<div className="varys-img"> </div>
+							</div>	
+							
 						
 						
 						</div>

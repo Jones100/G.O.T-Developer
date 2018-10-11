@@ -76,13 +76,39 @@
 .tyrion-img {
 	display: flex;
 	flex-direction: column;
-	width: 77%;
-	height: 68%;
+	width: 73%;
+	height: 66%;
 	margin-left: 80px;
 	background-image: url(img/tyrion.jpg);
-	background-size: cover;
+	background-size: 107% 198%;
 	border-radius: 50%;
 }
+
+.tywin-img {
+	display: flex;
+	flex-direction: column;
+	width: 57%;
+	height: 59%;
+	margin-left: 80px;
+	background-image: url(img/tywin.jpg);
+	background-position-x: 58%;
+	border-radius: 50%;
+}
+
+.varys-img {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 69%;
+	margin-left: 80px;
+	background-image: url(img/varys.jpg);
+	background-size: cover;
+	background-position: 53%;
+	border-radius: 50%;
+}
+
+
+
 
 
 
