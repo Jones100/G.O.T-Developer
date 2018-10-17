@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Brienne extends Component {
+class Tyrion extends Component {
 	constructor(props) {
 		super(props);
 			this.state = {
@@ -9,7 +9,7 @@ class Brienne extends Component {
     render() {
 			return ( 
 				<div className="brienne-text"> 
-					Enter Brienne...protector of the laws of web development, loyal to their teammates almost to a fault,
+					Enter Tyrion...protector of the laws of web development, loyal to their teammates almost to a fault,
 					unwavering in their bold and rigid path to serve humanity and deliver clean, tried and tested code!
 				  They prefer Java to JavaScript cause of it's strict and set structure, untrusting of any new technology, 
 					opting to stick to HTML 3.0 and Bootstrap 2.0! They more or less breathe depreciation! They are however
@@ -21,4 +21,4 @@ class Brienne extends Component {
     }
 }
 
-export default Brienne;
+export default Tyrion;
