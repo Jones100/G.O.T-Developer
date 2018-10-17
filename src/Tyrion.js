@@ -23,10 +23,3 @@ class Tyrion extends Component {
 }
 
 export default Tyrion;
-
-
-creativity
-unique methods
-innovative
-rational
-very confident, quite proud
