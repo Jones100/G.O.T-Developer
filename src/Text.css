@@ -1,0 +1,77 @@
+.littlefinger-img-container {
+    height: 700px;
+    width: 900px;
+} 
+
+.tywin-img-container {
+    height: 700px;
+    width: 900px;
+} 
+
+.brienne-img-container {
+    height: 800px;
+    width: 600px;
+} 
+
+.tyrion-img-container {
+	height: 420px;
+	width: 500px;
+}   
+
+.varys-img-container {
+	height: 850px;
+	width: 900px;
+}      
+
+.littlefinger-text-img {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    height: 60%;
+    margin: 0;
+    background-image: url(img/littlefinger-text.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+.tywin-text-img {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    height: 60%;
+    margin: 0;
+    background-image: url(img/tywin-text.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.brienne-text-img {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    height: 60%;
+    margin: 0;
+    background-image: url(img/brienne-text.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+
+.tyrion-text-img {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 100%;
+	background-image: url(img/tyrion-text.jpg);
+	background-position: 54%;
+}   
+
+.varys-text-img {
+	display: flex;
+	flex-direction: column;
+	width: 56%;
+	height: 60%;
+	margin: 0;
+	background-image: url(img/varys-text.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}      
