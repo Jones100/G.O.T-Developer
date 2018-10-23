@@ -1,3 +1,16 @@
+.character-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px;
+}
+
 .littlefinger-main-container {
     display: flex;
     width: 75%;
@@ -70,10 +83,6 @@
     line-height: 43px;
 }  
 
-.varys-main-container {
-    display: flex;
-    width: 75%;
-}
 
 .varys-img-container {
     height: 430px;
