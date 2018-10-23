@@ -3,7 +3,7 @@
     width: 900px;
 } 
 
-.tywin-img-container {
+/* .tywin-img-container {
     height: 700px;
     width: 900px;
 } 
@@ -21,7 +21,7 @@
 .varys-img-container {
 	height: 850px;
 	width: 900px;
-}      
+}        */
 
 .littlefinger-text-img {
     display: flex;
@@ -34,7 +34,7 @@
     background-repeat: no-repeat;
 } 
 
-.tywin-text-img {
+/* .tywin-text-img {
     display: flex;
     flex-direction: column;
     width: 53%;
@@ -63,7 +63,7 @@
 	height: 100%;
 	background-image: url(img/tyrion-text.jpg);
 	background-position: 54%;
-}   
+}    
 
 .varys-text-img {
 	display: flex;
@@ -74,4 +74,4 @@
 	background-image: url(img/varys-text.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-}      
+}       */
