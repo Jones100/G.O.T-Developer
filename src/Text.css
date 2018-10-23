@@ -1,9 +1,22 @@
+.littlefinger-main-container {
+    display: flex;
+    width: 75%;
+}
+
 .littlefinger-img-container {
-    height: 700px;
-    width: 900px;
+    height: 450px;
+    width: 350px;
 } 
 
-/* .tywin-img-container {
+.littlefinger-text {
+    display: flex;
+    width: 70%;
+    font-family: cursive;
+    font-size: 26px;
+    line-height: 45px;
+}
+
+ .tywin-img-container {
     height: 700px;
     width: 900px;
 } 
@@ -21,20 +34,20 @@
 .varys-img-container {
 	height: 850px;
 	width: 900px;
-}        */
+}         
 
 .littlefinger-text-img {
     display: flex;
     flex-direction: column;
-    width: 53%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     background-image: url(img/littlefinger-text.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 } 
 
-/* .tywin-text-img {
+ .tywin-text-img {
     display: flex;
     flex-direction: column;
     width: 53%;
@@ -74,4 +87,4 @@
 	background-image: url(img/varys-text.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-}       */
+}        
