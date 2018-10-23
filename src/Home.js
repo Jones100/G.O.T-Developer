@@ -25,17 +25,19 @@ class Home extends Component {
 							
 							<div className="middle-container">
 								<div className="img-container">
+									<div className="tywin-img"> </div>
+								</div>
+								
+								<div className="img-container">
 									<div className="brienne-img"> </div>
 								</div>	
-							</div>
-
-							<div className="img-container">
-								<div className="tyrion-img"> </div>
-							</div>	
 							
-							<div className="img-container">
-								<div className="tywin-img"> </div>
-							</div>	
+								<div className="img-container">
+									<div className="tyrion-img"> </div>
+								</div>	
+								
+
+							</div>
 							
 							<div className="img-container">
 								<div className="varys-img"> </div>
