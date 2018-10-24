@@ -12,21 +12,6 @@ class Testing extends Component {
 			<div className="character-main-container">
 				
 				<div className="img-text-container">
-					<div className="varys-img-container">
-						<div className="varys-text-img"> </div>
-					</div>
-					<div className="varys-text"> 
-						Ohh, what an oddball indeed...these 'creatures' are found in their lairs keenly engulfing the JavaScript secrets or
-						at the rear of web seminars intently devouring info and feeding their bottomless thirst for knowledge - 
-						particularly the dark arts. Master strategists it must be said but wierdly aberrant and introverted. These developers
-						will be alone, they prefer their workmates to let them get on with it and flourish in languages such as BrainF**k and
-						C++. They're not quite as recognized for their efforts as they'd like or even deserve but their awkward social
-						display and coffee-stained ripped black hoodie are something of a repeller. They secretly wish for a friend, a hug
-						and an 'F YOU!' to the world 'if' they rise to the top...
-					</div>
-				</div>
-
-				<div className="img-text-container">
 					<div className="littlefinger-img-container">
 						<div className="littlefinger-text-img"> </div>
 					</div>
@@ -38,22 +23,6 @@ class Testing extends Component {
 						their fellow team-mates in keeping their code universally easy to follow and perhaps
 						break all trust by relentless office back-stabbing on their climb to the top! 
 						Allbeit a superb and savvy developer! 
-					</div>
-				</div>
-
-				<div className="img-text-container">
-					<div className="tyrion-img-container">
-						<div className="tyrion-text-img"> </div>
-					</div>
-					<div className="tyrion-text"> 
-						The epitome of creativity, uniqueness and sheer brilliance! This confident character knows all the tricks!
-						A terrific salesman - particularly of self, they shine bright and are proud people. They know their value 
-						and won't accept a penny less for their efforts. Always on the hustle and look out for the next role (be 
-						it with their current employer or another) they make machine learning and languages such as Malbolge look
-						adequate for toddlers! This developer is quick to share their knowledge on Stack Overflow and other forums 
-						and eager to adopt a junior (tending to love the sound of their own voices). Ohhh, they're also creating
-						their own software... 
-						Hail Tyrion!
 					</div>
 				</div>
 
@@ -74,8 +43,8 @@ class Testing extends Component {
 				</div>
 			
 				<div className="img-text-container">
-					<div className="brienne-img-container">
-						<div className="brienne-text-img"> </div>
+					<div className="brienne-img-container"> </div>
+						<div className="brienne-text-img"> 
 					</div>
 					<div className="brienne-text"> 
 						Enter Brienne...protector of the laws of web development, loyal to their teammates almost to a fault,
@@ -85,6 +54,37 @@ class Testing extends Component {
 						great in their chosen fields - whether it's client-side, server-side, full-stack etc and will get the 
 						job done! Even if it is a blast from the past and takes 40 lines of definite, solidified code rather 
 						than 20 slighly looser lines :-);
+					</div>
+				</div>
+			
+				<div className="img-text-container">
+					<div className="tyrion-img-container">
+						<div className="tyrion-text-img"> </div>
+					</div>
+					<div className="tyrion-text"> 
+						The epitome of creativity, uniqueness and sheer brilliance! This confident character knows all the tricks!
+						A terrific salesman - particularly of self, they shine bright and are proud people. They know their value 
+						and won't accept a penny less for their efforts. Always on the hustle and look out for the next role (be 
+						it with their current employer or another) they make machine learning and languages such as Malbolge look
+						adequate for toddlers! This developer is quick to share their knowledge on Stack Overflow and other forums 
+						and eager to adopt a junior (tending to love the sound of their own voices). Ohhh, they're also creating
+						their own software... 
+						Hail Tyrion!
+					</div>
+				</div>
+
+				<div className="img-text-container">
+					<div className="varys-img-container">
+						<div className="varys-text-img"> </div>
+					</div>
+					<div className="varys-text"> 
+						Ohh, what an oddball indeed...these 'creatures' are found in their lairs keenly engulfing the JavaScript secrets or
+						at the rear of web seminars intently devouring info and feeding their bottomless thirst for knowledge - 
+						particularly the dark arts. Master strategists it must be said but wierdly aberrant and introverted. These developers
+						will be alone, they prefer their workmates to let them get on with it and flourish in languages such as BrainF**k and
+						C++. They're not quite as recognized for their efforts as they'd like or even deserve but their awkward social
+						display and coffee-stained ripped black hoodie are something of a repeller. They secretly wish for a friend, a hug
+						and an 'F YOU!' to the world 'if' they rise to the top...
 					</div>
 				</div>
 			
