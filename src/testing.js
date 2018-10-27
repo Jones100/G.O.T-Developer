@@ -16,12 +16,12 @@ class Testing extends Component {
 						<div className="littlefinger-text-img"> </div>
 					</div>
 					<div className="littlefinger-text"> 
-						A master manipulator of software! You have truly conquered the art of non-conformity
-						and having code bend to your vision and will! The type to give textbook traditions
-						the middle finger and ruthlessly banish old browsers for modern up to date ones.
-						This type of developer may not sepearate their HTML and CSS content, not consider
-						their fellow team-mates in keeping their code universally easy to follow and perhaps
-						break all trust by relentless office back-stabbing on their climb to the top! 
+						A master manipulator of software! You have truly conquered <br></br> the art of non-conformity
+						and having code bend to your <br></br> vision and will! The type to give textbook traditions
+						the <br></br> middle finger and ruthlessly banish old browsers for <br></br> modern up to date ones.
+						This type of developer may not <br></br> sepearate their HTML and CSS content, not consider
+						<br></br> their fellow team-mates in keeping their code universally <br></br> easy to follow and perhaps
+						break all trust by relentless <br></br> office back-stabbing on their 'climb' to the top! <br></br>
 						Allbeit a superb and savvy developer! 
 					</div>
 				</div>
