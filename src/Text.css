@@ -47,12 +47,12 @@
 
 .tywin-main-container {
     display: flex;
-    width: 75%;
+    width: 90%;
 }
 
 .tywin-img-container {
     height: 500px;
-    width: 2000px;
+    width: 2500px;
 } 
 
 .tywin-text-img {
@@ -68,11 +68,14 @@
 
 .tywin-text {
     display: flex;
-    width: 70%;
+    width: 45%;
     position: absolute;
     font-family: cursive;
-    font-size: 23px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #cecece;
+    font-weight: bolder;
+    margin: 4px 0 15px 380px;
 } 
 
 .brienne-main-container {
