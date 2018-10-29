@@ -52,7 +52,7 @@
 
 .tywin-img-container {
     height: 500px;
-    width: 2500px;
+    width: 2000px;
 } 
 
 .tywin-text-img {
@@ -80,7 +80,7 @@
 
 .brienne-main-container {
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 
 .brienne-img-container {
@@ -101,14 +101,14 @@
 
 .brienne-text {
     display: flex;
-    width: 50%;
+    width: 60%;
     position: absolute;
-    margin: 15px 0 15px 100px;
+    margin: 25px 0 25px 100px;
     font-family: cursive;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bolder;
-    color: red;
-    line-height: 39px;
+    color: #000;
+    line-height: 36px;
 } 
 
 .tyrion-main-container {
