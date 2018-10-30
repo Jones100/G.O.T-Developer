@@ -52,13 +52,13 @@ class Testing extends Component {
 							<div className="brienne-text-img"> 
 						</div>
 						<div className="brienne-text"> 
-							Enter Brienne...protector of the laws of web development, <br></br> loyal to their teammates almost to a fault,
-							unwavering in <br></br> their bold and rigid path to serve humanity and deliver <br></br> clean, tried and tested code!
-							They prefer Java to <br></br> JavaScript cause of it's strict and set structure, <br></br> untrusting of any new technology, 
-							opting to stick to <br></br> HTML 3.0 and Bootstrap 2.0! They more or less <br></br> breathe depreciation! They are however
-							great in their <br></br> chosen fields - whether it's client-side, server-side, <br></br> full-stack etc and will get the 
-							job done! Even if it is <br></br> a blast from the past and takes 40 lines of definite,<br></br> solidified code rather 
-							than 20 slighly looser lines :-);
+							Enter Brienne...protector of the laws of web development, loyal <br></br> to their teammates almost to a fault,
+							unwavering in their bold <br></br> &#160; and rigid path to serve humanity and deliver clean, tried <br></br> &#160; and tested code!
+							They prefer Java to JavaScript cause <br></br> &#160; of it's strict and set structure, untrusting of any new <br></br> &#160;&#160; &#160; technology, 
+							opting to stick to HTML 3.0 and <br></br> &#160; &#160;&#160; &#160;&#160; &#160; Bootstrap 2.0! They more or less breathe <br></br>
+							&#160; &#160;&#160;&#160;&#160; &#160;&#160; depreciation! They are however great in their <br></br> &#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160; &#160; chosen fields - 
+							 whether it's client-side, <br></br>&#160; &#160;&#160; &#160;&#160; &#160;&#160;&#160;&#160; server-side,full-stack etc and will get the job <br></br> &#160; &#160;&#160; &#160;&#160; &#160;&#160; &#160; done! Even if it is a blast from the past and
+							 <br></br> &#160; &#160;&#160; &#160;&#160; &#160;&#160; &#160;&#160;&#160;&#160; takes 40 lines of definite, solidified code <br></br>&#160; &#160;&#160; &#160;&#160; &#160;&#160; &#160;&#160; &#160;&#160;&#160; rather than 20 slighly looser lines :-);
 						</div>
 					</div>
 				</div>
