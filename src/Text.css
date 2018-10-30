@@ -35,14 +35,14 @@
 
 .littlefinger-text {
     display: flex;
-    width: 70%;
+    width: 60%;
     position: absolute;
-    margin: 20px;
+    margin: 12px 20px 20px 425px;
     font-family: cursive;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: bolder;
-    color: #900;
-    line-height: 45px;
+    /* color: red; */
+    line-height: 43px;
 } 
 
 .tywin-main-container {
