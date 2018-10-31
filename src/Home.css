@@ -25,17 +25,17 @@
 .main-body {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	/* width: 100%; */
 	margin: 0 30px 51px 30px;
 	align-items: flex-end;
 }
 
 .character-wheel {
-	  display: flex;
-		flex-direction: column;
-    align-items: center;
-		width: 55%;
-    margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 55%;
+	margin-right: 20px;
 }
 
 .img-container {
@@ -52,6 +52,25 @@
 	object-fit: cover;
 	background-image: url(img/littlefinger.jpg);
 	border-radius: 50%;
+}
+
+.fire-1 {
+	display: flex;
+	width: 30%;
+	height: 27%;
+	position: absolute;
+	background-image: url(img/fire.jpg);
+	background-repeat: no-repeat;
+}
+
+.fire-2 {
+	display: flex;
+	width: 30%;
+	height: 27%;
+	position: absolute;
+	background-image: url(img/fire.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
 }
 
 .middle-container {
@@ -106,9 +125,3 @@
 	background-position: 53%;
 	border-radius: 50%;
 }
-
-
-
-
-
-

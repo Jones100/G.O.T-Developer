@@ -8,48 +8,50 @@ class Home extends Component {
 			this.state = {
 			};
 	}
-		render() {
-			return (
-				<div className="main-container">
-					
-					<div className="main-header-container">
-						<div className="main-header"> What type of developer are you?? </div>
-					</div>
+	render() {
+		return (
+			<div className="main-container">
 				
-					<div className="main-body">
-						<div className="character-wheel">
-							
-							<div className="img-container">
-								<div className="littlefinger-img"> </div>
-							</div>	
-							
-							<div className="middle-container">
-								<div className="img-container">
-									<div className="tywin-img"> </div>
-								</div>
-								
-								<div className="img-container">
-									<div className="brienne-img"> </div>
-								</div>	
-							
-								<div className="img-container">
-									<div className="tyrion-img"> </div>
-								</div>	
-								
-
-							</div>
-							
-							<div className="img-container">
-								<div className="varys-img"> </div>
-							</div>	
-							
+				<div className="main-header-container">
+					<div className="main-header"> What type of developer are you?? </div>
+				</div>
+			
+				<div className="main-body">
+					
+					<div className="character-wheel">
 						
+						<div className="img-container">
+							<div className="littlefinger-img"> </div>
+						</div>	
+
+						<div className="fire-1"> </div>
+
+						<div className="fire-2"> </div>
+						
+						<div className="middle-container">
+							<div className="img-container">
+								<div className="tywin-img"> </div>
+							</div>
+
+							<div className="img-container">
+								<div className="brienne-img"> </div>
+							</div>	
+						
+							<div className="img-container">
+								<div className="tyrion-img"> </div>
+							</div>	
 						
 						</div>
-				
-
+						
+						<div className="img-container">
+							<div className="varys-img"> </div>
+						</div>	
+					
 					</div>
 			
+
+				</div>
+		
 			</div>
 		);
 	}
