@@ -26,9 +26,8 @@ class Home extends Component {
 
 						<div className="fire-container">
 							<div className="fire-1"> </div>
+							<div className="fire-2"> </div>
 						</div>
-
-							{/* // <div className="fire-2"> </div> */}
 
 						<div className="middle-container">
 							<div className="home-tywin-img-container">
@@ -45,11 +44,10 @@ class Home extends Component {
 						
 						</div>
 
-						{/* <div className="sword-container">
+						<div className="sword-container">
 							<div className="sword-1"> </div>
+							<div className="sword-2"> </div>
 						</div>
-						
-							<div className="sword-2"> </div> */}
 						
 						<div className="home-varys-img-container">
 							<div className="varys-img"> </div>
