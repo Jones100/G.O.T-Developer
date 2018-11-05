@@ -20,30 +20,38 @@ class Home extends Component {
 					
 					<div className="character-wheel">
 						
-						<div className="img-container">
+						<div className="home-littlefinger-img-container">
 							<div className="littlefinger-img"> </div>
 						</div>	
 
-						<div className="fire-1"> </div>
+						<div className="fire-container">
+							<div className="fire-1"> </div>
+						</div>
 
-						<div className="fire-2"> </div>
-						
+							{/* // <div className="fire-2"> </div> */}
+
 						<div className="middle-container">
-							<div className="img-container">
+							<div className="home-tywin-img-container">
 								<div className="tywin-img"> </div>
 							</div>
 
-							<div className="img-container">
+							<div className="home-brienne-img-container">
 								<div className="brienne-img"> </div>
 							</div>	
 						
-							<div className="img-container">
+							<div className="home-tyrion-img-container">
 								<div className="tyrion-img"> </div>
 							</div>	
 						
 						</div>
+
+						{/* <div className="sword-container">
+							<div className="sword-1"> </div>
+						</div>
 						
-						<div className="img-container">
+							<div className="sword-2"> </div> */}
+						
+						<div className="home-varys-img-container">
 							<div className="varys-img"> </div>
 						</div>	
 					
