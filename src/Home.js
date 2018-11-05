@@ -24,7 +24,7 @@ class Home extends Component {
 							<div className="littlefinger-img"> </div>
 						</div>	
 
-						<div className="fire-container">
+						<div className="fire-container-1">
 							<div className="fire-1"> </div>
 							<div className="fire-2"> </div>
 						</div>
@@ -44,9 +44,9 @@ class Home extends Component {
 						
 						</div>
 
-						<div className="sword-container">
-							<div className="sword-1"> </div>
-							<div className="sword-2"> </div>
+						<div className="fire-container-2">
+							<div className="fire-3"> </div>
+							<div className="fire-4"> </div>
 						</div>
 						
 						<div className="home-varys-img-container">

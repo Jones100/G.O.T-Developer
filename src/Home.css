@@ -60,7 +60,7 @@
 	border-radius: 50%;
 }
 
-.fire-container {
+.fire-container-1 {
 	display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -73,12 +73,11 @@
 	display: flex;
 	width: 165px;
 	height: 33px;
-	margin-top: 5px;
 	background-image: url(img/fire.jpg);
 	background-repeat: no-repeat;
 	background-position: 47% 50%;
 	background-size: cover;
-	transform: rotate(140deg);
+	transform: rotate(146deg);
 }
 
 .fire-2 {
@@ -92,6 +91,7 @@
 	background-size: cover;
 	transform: rotate(43deg);
 }
+
 
 .middle-container {
 	display: flex;
@@ -107,7 +107,7 @@
 	align-items: flex-end;
 	height: 100px;
 	width: 100px;
-	margin: 25px 0 0 60px;
+	margin: 15px 0 30px 60px;
 }
 
 .tywin-img {
@@ -126,7 +126,7 @@
 	align-items: flex-end;
 	height: 100px;
 	width: 100px;
-	margin: 25px 0 0 0px;
+	margin: 15px 0 0 0px;
 }
 
 .brienne-img {
@@ -146,7 +146,7 @@
 	align-items: flex-end;
 	height: 100px;
 	width: 100px;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .tyrion-img {
@@ -160,37 +160,37 @@
 	border-radius: 50%;
 }
 
-.sword-container {
+.fire-container-2 {
 	display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+	flex-direction: row;
+	justify-content: space-around;
 	width: 500px;
-    height: 50px;
-    margin-left: 180px;
+	height: 67px;
+	margin-left: 180px;
 }
 
-.sword-1 {
+.fire-3 {
 	display: flex;
 	width: 165px;
 	height: 33px;
 	margin-top: 5px;
-	background-image: url(img/sword.jpg);
+	background-image: url(img/fire.jpg);
 	background-repeat: no-repeat;
 	background-position: 47% 50%;
 	background-size: cover;
-	transform: rotate(140deg);
+	transform: rotate(220deg);
 }
 
-.sword-2 {
+.fire-4 {
 	display: flex;
 	width: 165px;
 	height: 33px;
-	margin-top: 5px;
-	background-image: url(img/sword.jpg);
+	margin-right: 45px;
+	background-image: url(img/fire.jpg);
 	background-repeat: no-repeat;
 	background-position: 47% 50%;
 	background-size: cover;
-	transform: rotate(140deg);
+	transform: rotate(325deg);
 }
 
 .home-varys-img-container {
@@ -199,7 +199,7 @@
 	align-items: flex-end;
 	height: 100px;
 	width: 100px;
-	margin: 95px 0 0 130px;
+	margin: 0px 0 0 130px;
 }
 
 .varys-img {
