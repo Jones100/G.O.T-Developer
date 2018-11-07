@@ -1,0 +1,46 @@
+.character-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.brienne-main-container {
+    display: flex;
+    width: 80%;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px;
+    position: relative;
+}
+
+.brienne-img-container {
+    height: 500px;
+    width: 2000px;
+} 
+
+.brienne-text-img {
+    display: flex;
+    flex-direction: column;
+    width: 2500%;
+    height: 100%;
+    margin: 0;
+    background-image: url(img/brienne-text.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}  
+
+.brienne-text {
+    display: flex;
+    width: 65%;
+    position: absolute;
+    margin: 15px 0 25px 100px;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #502922;
+    line-height: 35px;
+} 
