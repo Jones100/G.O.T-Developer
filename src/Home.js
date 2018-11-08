@@ -31,15 +31,15 @@ class Home extends Component {
 
 						<div className="middle-container">
 							<div className="home-tywin-img-container">
-								<div className="tywin-img"> </div>
+								<Link to="/tywin" className="tywin-img"> </Link>
 							</div>
 
 							<div className="home-brienne-img-container">
-								<div className="brienne-img"> </div>
+								<Link to="/brienne" className="brienne-img"> </Link>
 							</div>	
 						
 							<div className="home-tyrion-img-container">
-								<div className="tyrion-img"> </div>
+								<Link to="/tyrion" className="tyrion-img"> </Link>
 							</div>	
 						
 						</div>
@@ -50,7 +50,7 @@ class Home extends Component {
 						</div>
 						
 						<div className="home-varys-img-container">
-							<div className="varys-img"> </div>
+							<Link to="/varys" className="varys-img"> </Link>
 						</div>	
 					
 					</div>
