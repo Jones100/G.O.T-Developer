@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Home extends Component {
 	constructor(props) {
@@ -21,7 +21,7 @@ class Home extends Component {
 					<div className="character-wheel">
 						
 						<div className="home-littlefinger-img-container">
-							<div className="littlefinger-img"> </div>
+							<Link to="/littlefinger" className="littlefinger-img"> </Link>
 						</div>	
 
 						<div className="fire-container-1">
