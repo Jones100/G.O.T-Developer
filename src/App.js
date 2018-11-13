@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Home from "./Home";
+import Dragon from "./Dragon";
 import Littlefinger from "./Littlefinger";
 import Tywin from "./Tywin";
 import Brienne from "./Brienne";
@@ -19,6 +20,7 @@ class App extends Component {
       <Router>
         <div className="app">
           <Route exact path="/" component={Home} />
+          <Route exact path="/dragon" component={Dragon} />
           <Route exact path="/littlefinger" component={Littlefinger} />
           <Route exact path="/tywin" component={Tywin} />
           <Route exact path="/brienne" component={Brienne} />

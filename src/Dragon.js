@@ -11,9 +11,11 @@ class Dragon extends Component {
     render() {
 		return (
             <div className="dragon-main-page-container">
-                <div className="dragon-img-container">
-                    <div className="dragon"> </div>
-                </div>
+                {/* <div className="dragon-main-body-container"> */}
+                    <div className="dragon-img-container">
+                        <div className="dragon"> </div>
+                    </div>
+                {/* </div> */}
             </div>
 
         );
