@@ -21,7 +21,7 @@ class Home extends Component {
 					<div className="character-wheel">
 						
 						<div className="home-littlefinger-img-container">
-							<Link to="/littlefinger" className="littlefinger-img"> </Link>
+							<Link to="/dragon" className="littlefinger-img"> </Link>
 						</div>	
 
 						<div className="fire-container-1">
