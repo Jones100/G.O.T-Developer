@@ -8,11 +8,11 @@ class Home extends Component {
 			this.state = {
 			};
 
-		this.handleIcon = this.handleIcon.bind(this);
+		this.characterName = this.characterName.bind(this);
 	}
 
-	handleIcon() {
-		console.log("Hello world");
+	characterName(e) {
+		console.log(e.target.name);
 	}
 
 	render() {
@@ -28,7 +28,8 @@ class Home extends Component {
 					<div className="character-wheel">
 						
 						<div className="home-littlefinger-img-container">
-							<Link to="/dragon" className="littlefinger-img" onClick={this.handleIcon}> </Link>
+							<Link to="/dragon" className="littlefinger-img" name="littlefinger"
+							onClick={this.characterName}> </Link>
 						</div>	
 
 						<div className="fire-container-1">
@@ -62,7 +63,6 @@ class Home extends Component {
 					
 					</div>
 			
-
 				</div>
 		
 			</div>
