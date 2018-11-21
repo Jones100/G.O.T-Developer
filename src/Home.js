@@ -39,17 +39,17 @@ class Home extends Component {
 
 						<div className="middle-container">
 							<div className="home-tywin-img-container">
-								<Link to="/tywin" className="tywin-img" name="tywin"
+								<Link to="/dragon" className="tywin-img" name="tywin"
 								onClick={this.setCharacterName}> </Link>
 							</div>
 
 							<div className="home-brienne-img-container">
-								<Link to="/brienne" className="brienne-img" name="brienne"
+								<Link to="/dragon" className="brienne-img" name="brienne"
 								onClick={this.setCharacterName}> </Link>
 							</div>	
 						
 							<div className="home-tyrion-img-container">
-								<Link to="/tyrion" className="tyrion-img" name="tyrion"
+								<Link to="/dragon" className="tyrion-img" name="tyrion"
 								onClick={this.setCharacterName}> </Link>
 							</div>	
 						
@@ -61,7 +61,7 @@ class Home extends Component {
 						</div>
 						
 						<div className="home-varys-img-container">
-							<Link to="/varys" className="varys-img" name="varys"
+							<Link to="/dragon" className="varys-img" name="varys"
 							onClick={this.setCharacterName}> </Link>
 						</div>	
 					
