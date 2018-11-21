@@ -6,7 +6,14 @@ class Dragon extends Component {
 	constructor(props) {
 		super(props);
 			this.state = {
-			};
+            };
+            
+        this.getCharacterName = this.getCharacterName.bind(this);
+    }
+
+    getCharacterName(e) {
+        let getCharacterName = localStorage.getItem("characterName");
+        console.log(getCharacterName);
     }
 
     render() {
@@ -16,7 +23,8 @@ class Dragon extends Component {
                     <div className="dragon"> 
                         <div className="btn-container">
                             <button className="enter">
-                                <li><Link to="/"> Enter </Link></li>
+                                <li><Link to="/" onClick={this.getCharacterName}>
+                                Enter </Link></li>
                             </button>
                         </div>
                     </div>
