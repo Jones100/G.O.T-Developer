@@ -8,10 +8,10 @@ class Home extends Component {
 			this.state = {
 			};
 
-		this.characterName = this.characterName.bind(this);
+		this.setCharacterName = this.setCharacterName.bind(this);
 	}
 
-	characterName(e) {
+	setCharacterName(e) {
 		localStorage.setItem("characterName", e.target.name);
 	}
 
@@ -29,7 +29,7 @@ class Home extends Component {
 						
 						<div className="home-littlefinger-img-container">
 							<Link to="/dragon" className="littlefinger-img" name="littlefinger"
-							onClick={this.characterName}> </Link>
+							onClick={this.setCharacterName}> </Link>
 						</div>	
 
 						<div className="fire-container-1">
@@ -40,17 +40,17 @@ class Home extends Component {
 						<div className="middle-container">
 							<div className="home-tywin-img-container">
 								<Link to="/tywin" className="tywin-img" name="tywin"
-								onClick={this.characterName}> </Link>
+								onClick={this.setCharacterName}> </Link>
 							</div>
 
 							<div className="home-brienne-img-container">
 								<Link to="/brienne" className="brienne-img" name="brienne"
-								onClick={this.characterName}> </Link>
+								onClick={this.setCharacterName}> </Link>
 							</div>	
 						
 							<div className="home-tyrion-img-container">
 								<Link to="/tyrion" className="tyrion-img" name="tyrion"
-								onClick={this.characterName}> </Link>
+								onClick={this.setCharacterName}> </Link>
 							</div>	
 						
 						</div>
@@ -62,7 +62,7 @@ class Home extends Component {
 						
 						<div className="home-varys-img-container">
 							<Link to="/varys" className="varys-img" name="varys"
-							onClick={this.characterName}> </Link>
+							onClick={this.setCharacterName}> </Link>
 						</div>	
 					
 					</div>
