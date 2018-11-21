@@ -7,7 +7,8 @@ class Dragon extends Component {
 		super(props);
 			this.state = {
 			};
-	}
+    }
+
     render() {
 		return (
             <div className="dragon-main-page-container">
