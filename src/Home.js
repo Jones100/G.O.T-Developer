@@ -7,7 +7,14 @@ class Home extends Component {
 		super(props);
 			this.state = {
 			};
+
+		this.handleIcon = this.handleIcon.bind(this);
 	}
+
+	handleIcon() {
+		console.log("Hello world");
+	}
+
 	render() {
 		return (
 			<div className="main-container">
@@ -21,7 +28,7 @@ class Home extends Component {
 					<div className="character-wheel">
 						
 						<div className="home-littlefinger-img-container">
-							<Link to="/dragon" className="littlefinger-img"> </Link>
+							<Link to="/dragon" className="littlefinger-img" onClick={this.handleIcon}> </Link>
 						</div>	
 
 						<div className="fire-container-1">
