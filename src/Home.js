@@ -12,7 +12,6 @@ class Home extends Component {
 	}
 
 	characterName(e) {
-		// console.log(e.target.name);
 		localStorage.setItem("characterName", e.target.name);
 	}
 
@@ -40,15 +39,18 @@ class Home extends Component {
 
 						<div className="middle-container">
 							<div className="home-tywin-img-container">
-								<Link to="/tywin" className="tywin-img"> </Link>
+								<Link to="/tywin" className="tywin-img" name="tywin"
+								onClick={this.characterName}> </Link>
 							</div>
 
 							<div className="home-brienne-img-container">
-								<Link to="/brienne" className="brienne-img"> </Link>
+								<Link to="/brienne" className="brienne-img" name="brienne"
+								onClick={this.characterName}> </Link>
 							</div>	
 						
 							<div className="home-tyrion-img-container">
-								<Link to="/tyrion" className="tyrion-img"> </Link>
+								<Link to="/tyrion" className="tyrion-img" name="tyrion"
+								onClick={this.characterName}> </Link>
 							</div>	
 						
 						</div>
@@ -59,7 +61,8 @@ class Home extends Component {
 						</div>
 						
 						<div className="home-varys-img-container">
-							<Link to="/varys" className="varys-img"> </Link>
+							<Link to="/varys" className="varys-img" name="varys"
+							onClick={this.characterName}> </Link>
 						</div>	
 					
 					</div>
