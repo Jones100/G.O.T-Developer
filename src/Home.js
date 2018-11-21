@@ -12,7 +12,8 @@ class Home extends Component {
 	}
 
 	characterName(e) {
-		console.log(e.target.name);
+		// console.log(e.target.name);
+		localStorage.setItem("characterName", e.target.name);
 	}
 
 	render() {
