@@ -17,13 +17,15 @@ class Dragon extends Component {
     }
 
     render() {
+        let character = localStorage.getItem("characterName");
+
 		return (
             <div className="dragon-main-page-container">
                 <div className="dragon-img-container">
                     <div className="dragon"> 
                         <div className="btn-container">
                             <button className="enter">
-                                <li><Link to="/" onClick={this.getCharacterName}>
+                                <li><Link to={`/profile/${character}`} onClick={this.getCharacterName}>
                                 Enter </Link></li>
                             </button>
                         </div>
