@@ -47,15 +47,8 @@
     border-width: 0;
     border-radius: 1px;
     background-color: #dcdcdc;
-}
-
-.enter li {
-    display: flex;
     margin-left: 1px;
-}
-
-.enter li a {
-    display: flex;
+    /* display: flex; */
     font-size: 2.5px;
     text-decoration: none;
     color: #8B0000;
