@@ -7,27 +7,19 @@ class Dragon extends Component {
 		super(props);
 			this.state = {
             };
-            
-        this.displayCharacterProfile = this.displayCharacterProfile.bind(this);
-    }
-
-    displayCharacterProfile() {
-        let getCharacterName = localStorage.getItem("characterName");
-        
-        if(getCharacterName == "littlefinger") {
-            console.log("the climb is all there is");
-            // <Link to="/littlefinger"></Link>
-        }
     }
 
     render() {
+        let getCharacterName = localStorage.getItem("characterName");
 		return (
             <div className="dragon-main-page-container">
 
                 <div className="dragon-img-container">
                     <div className="dragon"> 
                         <div className="btn-container">
-                            <button className="enter" onClick={this.displayCharacterProfile}> Enter </button>
+                            <button className="enter"> <Link to={"/" + getCharacterName}> 
+                            Enter </Link>
+                            </button>
                         </div>
                     </div>
                 </div>

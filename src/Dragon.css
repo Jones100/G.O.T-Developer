@@ -43,13 +43,15 @@
     padding: 0;
     width: 9px;
     height: 4px;
-    list-style: none;
     border-width: 0;
     border-radius: 1px;
     background-color: #dcdcdc;
+    /* list-style: none; */
+}
+
+.enter a {
+    color: #8B0000;
     margin-left: 1px;
-    /* display: flex; */
     font-size: 2.5px;
     text-decoration: none;
-    color: #8B0000;
 }
