@@ -9,7 +9,7 @@ class Tyrion extends Component {
 	}
     render() {
 		return ( 
-			<div className="character-main-container">
+			<div className="tyrion-master-container">
 				
 				<div className="tyrion-main-container">
 					<div className="img-text-container">

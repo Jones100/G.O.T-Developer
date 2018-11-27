@@ -9,7 +9,7 @@ class Brienne extends Component {
 	}
 	render() {
 		return ( 
-			<div className="character-main-container">
+			<div className="brienne-master-container">
 				
 				<div className="brienne-main-container">
 					<div className="img-text-container">

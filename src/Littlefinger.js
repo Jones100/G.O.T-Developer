@@ -9,7 +9,7 @@ class Littlefinger extends Component {
 	}
     render() {
 		return (
-			<div className="character-main-container">
+			<div className="littlefinger-master-container">
 
 				<div className="littlefinger-main-container">
 					<div className="img-text-container">

@@ -9,7 +9,7 @@ class Tywin extends Component {
 	}
 	render() {
 		return (
-			<div className="character-main-container">
+			<div className="tywin-master-container">
 				
 				<div className="tywin-main-container">
 					<div className="img-text-container">

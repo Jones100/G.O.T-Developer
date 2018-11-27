@@ -9,7 +9,7 @@ class Varys extends Component {
 	}
 	render() {
 		return (
-			<div className="character-main-container">
+			<div className="varys-master-container">
 				
 				<div className="varys-main-container">
 					<div className="img-text-container">

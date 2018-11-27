@@ -1,7 +1,9 @@
-.character-main-container {
+.littlefinger-master-container {
     display: flex;
     flex-direction: column;
     width: 90%;
+    align-items: center;
+    margin: 50px 0 0 50px;
 }
 
 .littlefinger-main-container {
