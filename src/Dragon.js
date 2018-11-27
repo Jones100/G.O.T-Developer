@@ -8,14 +8,13 @@ class Dragon extends Component {
 			this.state = {
             };
     }
-
     render() {
         let getCharacterName = localStorage.getItem("characterName");
 		return (
             <div className="dragon-main-page-container">
 
                 <div className="dragon-img-container">
-                    <div className="dragon"> 
+                    <div className="dragon" onClick={this.scaleDragon}> 
                         <div className="btn-container">
                             <button className="enter"> <Link to={"/" + getCharacterName}> 
                             Enter </Link>
